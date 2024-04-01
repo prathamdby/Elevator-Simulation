@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Round - I</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <noscript>
+      <h1>JavaScript is disabled in your browser.</h1>
+      <h2>Please enable JavaScript to view this page.</h2>
+    </noscript>
+    <!-- Sound Effect -->
+    <audio id="sound-effect">
+      <source src="./Ding.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <!-- Container -->
+    <div class="container">
+      <!-- Elevator Container -->
+      <div class="elevator-container">
+        <!-- Arrow Buttons -->
+        <button class="arrow-button button-1">&#8595;</button>
+        <!-- Arrow Buttons Container -->
+        <div class="button-container">
+          <button class="arrow-button button-2">&#8593;</button>
+          <button class="arrow-button button-3">&#8595;</button>
+        </div>
+        <button class="arrow-button button-4">&#8593;</button>
+        <!-- Boxes / Floors -->
+        <div class="box box-1">
+          <!-- Box / Floor Labels -->
+          <div class="box-label">
+            <p>Level 2</p>
+          </div>
+        </div>
+        <div class="box box-2">
+          <div class="box-label">
+            <p>Level 1</p>
+          </div>
+        </div>
+        <div class="box box-3">
+          <div class="box-label">
+            <p>Level 0 / GL</p>
+          </div>
+          <!-- Elevator -->
+          <div class="elevator">
+            <!-- Elevator Label -->
+            <div class="elevator-label">
+              <p>Elevator</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
